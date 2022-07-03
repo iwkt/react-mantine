@@ -17,6 +17,7 @@
 extends の"prettier"を一番最後に書くと下記エラーが発生
 
 `Failed to load config "prettier" to extend from.`
+
 このため、"eslint:recommended",の直後に"prettier"を記入することでエラー回避できた。
 
 ```
